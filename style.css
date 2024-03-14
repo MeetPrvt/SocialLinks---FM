@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'CusFont';
+    /*a name to be used later*/
+    src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf');
+    /*URL to font*/
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    margin: 0;
+    padding: 0;
+    font-family: 'CusFont';
+}
+
+.style1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.style2 {
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.style2 img {
+    width: 35%;
+    border-radius: 50%;
+}
+
+.style3 {
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.style4 {
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 7%;
+}
+
+
+.style5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 20%);
+    height: 50px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.style5:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    transition: 1s;
+}
+
+.style6 {
+    width: 20%;
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+    text-align: center;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.style7 {
+    margin-bottom: 6%;
+}
+
+@media screen and (max-width: 600px) {
+    .style6 {
+        width: 76%;
+        padding: 26px;
+    }
+}
